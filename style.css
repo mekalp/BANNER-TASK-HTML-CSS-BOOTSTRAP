@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-bg{
+    background-color: rgba(242, 242, 242, 0.6);
+    padding: 25px;
+}
+.banner-bg:before{
+    content: '';
+    position: absolute;
+    background: url(../images/line.jpg) repeat-y;
+    width: 12px;
+    height: 1037px;
+    left: 50%;
+}
+h1{
+    font-size: 40px;
+    line-height: 44px;
+    color: #1fabbd;
+}
+h1 span{
+    color: #fec311;
+}
+h2, h3{
+    color: #34586e;
+}
+.blue-color{
+    color: #19aec2;
+}
+.yellow{
+    color: #fec311;
+}
+.people-percentage span{
+    color: #34586e;
+    font-size: 50px;
+}
